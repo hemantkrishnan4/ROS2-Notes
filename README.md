@@ -13,3 +13,12 @@ If you have not installed Turtlesim, use the following commands:
 ```bash
 sudo apt update
 sudo apt install ros-humble-turtlesim
+```
+
+To check if the package is installed:
+```bash
+ros2 pkg executables turtlesim
+```
+ros2 run turtlesim turtlesim_node
+
+
